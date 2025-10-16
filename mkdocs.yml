@@ -1,18 +1,15 @@
 site_name: Tomball Prep Handbook
 site_url: https://handbook.tomballprep.org/
 repo_url: https://github.com/tomballprep/handbook
+
 theme:
   name: material
   features:
     - navigation.tabs
     - navigation.top
     - content.code.copy
-    - content.action.edit
     - toc.follow
-    - search.suggest
-    - search.highlight
-  logo: assets/logo.svg
-  favicon: assets/favicon.png
+
 nav:
   - Overview: index.md
   - Handbook:
@@ -24,26 +21,17 @@ nav:
       - Privacy: policies/privacy.md
       - Terms: policies/terms.md
   - Support: support/index.md
+
 markdown_extensions:
   - admonition
   - attr_list
   - def_list
   - footnotes
-  - meta
   - tables
   - toc:
       permalink: true
+
 plugins:
   - search
-  - sitemap:
-      url: https://handbook.tomballprep.org/
   - git-revision-date-localized:
       fallback_to_build_date: true
-extra:
-  social:
-    - icon: fontawesome/brands/x-twitter
-      link: https://x.com/tomballprep
-    - icon: fontawesome/brands/facebook
-      link: https://facebook.com/tomballprep
-extra_css: []
-extra_javascript: []
