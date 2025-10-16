@@ -1,0 +1,27 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "mkdocs: serve",
+      "type": "shell",
+      "command": "bash",
+      "args": [
+        "-lc",
+        "test -d .venv || python3 -m venv .venv; source .venv/bin/activate && python -m pip install --upgrade pip && (test -f requirements.txt && pip install -r requirements.txt || pip install 'mkdocs>=1.6' 'mkdocs-material>=9.5') && mkdocs serve -a 127.0.0.1:8000"
+      ],
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "dedicated" }
+    },
+    {
+      "label": "mkdocs: build",
+      "type": "shell",
+      "command": "bash",
+      "args": [
+        "-lc",
+        "source .venv/bin/activate && mkdocs build --strict"
+      ],
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "dedicated" }
+    }
+  ]
+}
