@@ -11,16 +11,33 @@ theme:
     - toc.follow
 
 nav:
-  - Overview: index.md
-  - Handbook:
-      - Start here: handbook/index.md
-      - Academics: handbook/academics.md
-      - Athletics: handbook/athletics.md
-  - Policies:
-      - Index: policies/index.md
-      - Privacy: policies/privacy.md
-      - Terms: policies/terms.md
-  - Support: support/index.md
+  - About:
+      - Mission & Philosophy: about/mission.md
+      - Core Values, Conduct & Honor: about/values.md
+  - Admissions & Eligibility:
+      - Eligibility: admissions/eligibility.md
+      - Enrollment & Withdrawal: admissions/enrollment.md
+  - Academics:
+      - Overview: academics/overview.md
+  - Athletics:
+      - Dress Code & Uniforms: athletics/dress-code.md
+      - Playing Time Policy: athletics/playing-time.md
+      - Athlete Fitness Standards: athletics/fitness-standards.md
+      - Game Conduct & Protocols: athletics/game-conduct.md
+  - Arts:
+      - Overview: arts/overview.md
+  - Health & Safety:
+      - Medical, Medications & Concussion: health/medical.md
+      - Heat & Severe Weather: health/weather.md
+  - Technology:
+      - Acceptable Use (AUP): technology/acceptable-use.md
+  - Operations:
+      - Communications: operations/communications.md
+      - Travel & Supervision: operations/travel.md
+      - Fees & Refunds: operations/fees.md
+  - Appendices:
+      - Glossary: appendices/glossary.md
+      - Policy Change Log: appendices/changelog.md
 
 markdown_extensions:
   - admonition
