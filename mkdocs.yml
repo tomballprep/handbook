@@ -11,6 +11,7 @@ theme:
     - toc.follow
 
 nav:
+  - Home: index.md
   - About:
       - Mission & Philosophy: about/mission.md
       - Core Values, Conduct & Honor: about/values.md
